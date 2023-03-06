@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import Biografia from "./components/biografias";
+import Biografia from "../src/components/aboutUs/biografias";
 
 function App() {
   return (
