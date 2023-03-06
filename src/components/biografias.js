@@ -27,7 +27,7 @@ function Biografia() {
             </p>
           </Box>
         </Grid>
-        <Grid item xs={12} md={2}>
+        <Grid item xs={12} md={2.4}>
           <Box border={1}>
             <AboutUs
               imagen="circle"
@@ -36,7 +36,7 @@ function Biografia() {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} md={2}>
+        <Grid item xs={12} md={2.4}>
           <Box border={1}>
             <AboutUs
               imagen="circle"
@@ -45,7 +45,7 @@ function Biografia() {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} md={2}>
+        <Grid item xs={12} md={2.4}>
           <Box border={1}>
             <AboutUs
               imagen="circle"
@@ -56,7 +56,7 @@ function Biografia() {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} md={2}>
+        <Grid item xs={12} md={2.4}>
           <Box border={1}>
             <AboutUs
               imagen="circle"
@@ -65,7 +65,7 @@ function Biografia() {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} md={2}>
+        <Grid item xs={12} md={2.4}>
           <Box border={1}>
             <AboutUs
               imagen="circle"
