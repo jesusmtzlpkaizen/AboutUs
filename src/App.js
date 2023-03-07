@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
-
-import Biografia from "../src/components/aboutUs/biografias";
+import AboutSlider from "../src/components/aboutUs/aboutSlider";
 
 function App() {
   return (
     <div className="App">
-      <Biografia />
+      <AboutSlider />
     </div>
   );
 }
