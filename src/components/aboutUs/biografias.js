@@ -1,4 +1,5 @@
 import React from "react";
+import "../aboutUs/biografias.css";
 
 import AboutUs from "../aboutUs/aboutUs";
 import { Grid, Box } from "@mui/material";
@@ -8,17 +9,17 @@ function Biografia() {
     <div className="mi-biografia">
       <Grid container>
         <Grid item xs={12}>
-          <Box border={1}>
+          <Box>
             <h1>W&M</h1>
           </Box>
         </Grid>
         <Grid item xs={12}>
-          <Box border={1}>
+          <Box>
             <h2>Sobre nosotros</h2>
           </Box>
         </Grid>
         <Grid item xs={12}>
-          <Box border={1}>
+          <Box>
             <p>
               Somos un equipo enfocado en la comodidad para los jóvenes sin
               descuidar el aspecto casual y formal, ofrececiendo productos de
@@ -27,26 +28,22 @@ function Biografia() {
             </p>
           </Box>
         </Grid>
-        <Grid item xs={12} md={2.4}>
-          <Box border={1}>
+        <Grid container className="Lo">
+          <Grid item xs={12} lg={2.4}>
             <AboutUs
               imagen="circle"
               nombre="Hector:"
               descripcion="Ingeniero en aeronáutica proactivo con habilidades de liderazgo, toma de decisiones y orientación al detalle. Actualmente miembro del equipo CodeHunters en Generation México para el desarrollo de una aplicación web como desarrollador Full Stack."
             />
-          </Box>
-        </Grid>
-        <Grid item xs={12} md={2.4}>
-          <Box border={1}>
+          </Grid>
+          <Grid item xs={12} lg={2.4}>
             <AboutUs
               imagen="circle"
               nombre="Jesus Martinez"
               descripcion="Estoy enfocado en el aprendizaje y mejoramiento continuo para crecer y permitir el crecimiento de las personas a mi alrededor. Miembro del equipo de desarrollo CodeHunters en Generation México encargados del desarrollo de una aplicación web de comercio electrónico."
             />
-          </Box>
-        </Grid>
-        <Grid item xs={12} md={2.4}>
-          <Box border={1}>
+          </Grid>
+          <Grid item xs={12} lg={2.4}>
             <AboutUs
               imagen="circle"
               nombre="Carlos Zarate"
@@ -54,25 +51,21 @@ function Biografia() {
         soy miembro del equipo CodeHunters para el desarrollo 
         de una aplicacion web FullStack."
             />
-          </Box>
-        </Grid>
-        <Grid item xs={12} md={2.4}>
-          <Box border={1}>
+          </Grid>
+          <Grid item xs={12} lg={2.4}>
             <AboutUs
               imagen="circle"
               nombre="Estefania"
               descripcion="monreededdwdwed"
             />
-          </Box>
-        </Grid>
-        <Grid item xs={12} md={2.4}>
-          <Box border={1}>
+          </Grid>
+          <Grid item xs={12} lg={2.4}>
             <AboutUs
               imagen="circle"
               nombre="Gerardo"
               descripcion="monreededdwdwed"
             />
-          </Box>
+          </Grid>
         </Grid>
       </Grid>
     </div>

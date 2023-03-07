@@ -1,0 +1,12 @@
+h2,
+p {
+  margin: 1em;
+}
+h1 {
+  text-align: center;
+  background-color: white;
+  margin-top: 1em;
+}
+.mi-biografia {
+  background-color: rgb(226, 228, 229);
+}

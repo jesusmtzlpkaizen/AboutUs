@@ -1,0 +1,12 @@
+.sobre-mi {
+  margin: 1.5em;
+  background-color: white;
+  text-align: center;
+  height: 90%;
+  border-radius: 2em;
+}
+
+img {
+  float: center;
+  width: 10em;
+}
